@@ -1,0 +1,69 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    height: 30px;
+}
+
+h1{
+    color: darkcyan;
+}
+
+p strong{
+    color: red;
+}
+
+span.destacado{
+    color: sandybrown;
+}
+
+h2{
+    color: blue;
+}
+
+p a{
+    color: red;
+    text-decoration: underline;
+}
+
+a em{
+    color: blue;
+}
+
+span.especial{
+    color: purple;
+}
+
+caption {
+    color: blue;
+}
+
+th {
+    font-weight: bold;
+    color: sandybrown;
+}
+
+th[scope="row"]:not(.especial), th[scope="col"]:not(.especial) {
+    color: red;
+}
+
+table strong{
+    color: sandybrown;
+}
+
+td{
+    color: green;
+}
+
+#adicional{
+    color: olive;
+}
+
+#especial{
+    color: blueviolet;
+}
+
+div a {
+    color: green;
+    text-decoration: underline;
+}
